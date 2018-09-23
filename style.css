@@ -1,0 +1,38 @@
+.sidebar
+{
+	height: 100%;
+	width: 190px;
+	position: fixed;
+	z-index: 1;
+	margin: 0px;
+	padding:0px;
+	
+	
+}
+html, body{
+	margin:0px;
+	padding: 0px;
+	background-image: url("who.jpg");
+	color: black;
+	
+}
+.main{
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: rgba(163, 255, 241, 0.7);
+	align:center;
+}
+h1{
+margin-top:0px;
+}
+.button{
+	border-radius : 8px;
+	background-color : rgba(255, 203, 164, 0.75);
+	height : 100px;
+	width: 100px;
+	margin-left: 50px;
+}
+.button:hover
+{
+	background-color : rgba(163, 255, 241, 1);
+}
