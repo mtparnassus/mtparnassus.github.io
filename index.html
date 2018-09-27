@@ -18,6 +18,39 @@
 		<div class = "main">
 			<h1>WELCOME TO MT. PARNASSUS!</h1>
 			<p>This is the website for the study group. All the docs, notes, etc. will be posted here. Hope this is helpful. I, Arjun, coded it and shout-out to Caroline for being a big part of making the study material itself. If you want to add a page or just add a link to this, email it to me and I will add it.</p>
+			//countdown starts here
+				<p id="demo">Countdown to Thanksgiving Break (9 days)</p>
+
+				<script>
+				// Set the date we're counting down to
+				var countDownDate = new Date("Nov 16, 2018 15:20:00").getTime();
+
+				// Update the count down every 1 second
+				var x = setInterval(function() {
+
+				  // Get todays date and time
+				  var now = new Date().getTime();
+
+				  // Find the distance between now and the count down date
+				  var distance = countDownDate - now;
+
+				  // Time calculations for days, hours, minutes and seconds
+				  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				  // Display the result in the element with id="demo"
+				  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+				  + minutes + "m " + seconds + "s ";
+
+				  // If the count down is finished, write some text
+				  if (distance < 0) {
+				    clearInterval(x);
+				    document.getElementById("demo").innerHTML = "EXPIRED";
+				  }
+				}, 1000);
+				</script>
 		</div>
 		
 	</body>
