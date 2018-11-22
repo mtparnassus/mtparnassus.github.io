@@ -40,3 +40,8 @@ margin-top:0px;
 a{
 	color:#F0B4A1;
 }
+
+a:hover
+{
+	color:#9C1CFF;
+}
