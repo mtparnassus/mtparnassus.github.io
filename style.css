@@ -13,7 +13,7 @@ html, body{
 	margin:0px;
 	padding: 0px;
 	background-image: url("https://files.catbox.moe/flg4wo.png");
-	bakcground-size: fit;
+	
 	color: white;
 	
 }
@@ -28,6 +28,8 @@ margin-top:0px;
 .button{
 	border-radius : 8px;
 	background-image : url("https://www.youcustomizeit.com/common/MAKE/204196/Circuit-Board-Wallpaper-Square.jpg");
+	background-size:fit;
+	
 	color : black;
 	height : 100px;
 	width: 100px;
