@@ -13,6 +13,7 @@ html, body{
 	margin:0px;
 	padding: 0px;
 	background-image: url("https://files.catbox.moe/flg4wo.png");
+	bakcground-size: fit;
 	color: white;
 	
 }
