@@ -27,8 +27,8 @@ margin-top:0px;
 }
 .button{
 	border-radius : 8px;
-	background-image : url("https://www.youcustomizeit.com/common/MAKE/204196/Circuit-Board-Wallpaper-Square.jpg");
-	background-size:fit;
+	background-image : url("circuitsquare.jpg");
+	background-position: center;
 	
 	color : black;
 	height : 100px;
